@@ -1,11 +1,13 @@
-# Personal Website Made Easy
+# My Personal Website
 
-Ecclesiastical leaders in my youth referred to me as "super slack". I'd like to think they
+Lazily forked from 11ty-plain-bootstrap5
+
+<!--Ecclesiastical leaders in my youth referred to me as "super slack". I'd like to think they
 saw similarities in my behavior with the 3 virtues of a [perl] programmer: [laziness, impatience, and hubris](https://wiki.c2.com/?LazinessImpatienceHubris).
 
 So why not leverage 11ty-plain-bootstrap5 for the 2nd incarnation of this site/blog?
 
-<!--
+
 My first personal website was built with HTML by hand, more specifically, it was in `.shtml`, where each post
 was represented as a `.shtml` file, with the main page calling each post as an include. This was a primitive
 approach, but it was the beginning of my laziness.
