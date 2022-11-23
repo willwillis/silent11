@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 1
 ---
 
-## About us
+## About Will
 
 **This was written in Markdown.**
 
