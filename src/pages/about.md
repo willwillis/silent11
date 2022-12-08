@@ -3,6 +3,7 @@ layout: base
 eleventyNavigation:
   key: About
   order: 1
+  hideInMainNav: true
 ---
 
 ## About Me

@@ -1,10 +1,12 @@
 {# Macro function to render child items (submenus) #}
 {% macro renderNavListDropdown(childEntry) -%}
+
 <li>
     <a class="dropdown-item" href=" {{ childEntry.url | url }}">
     {{childEntry.title}}
     </a>
 </li>
+
 {%- endmacro %}
 
 {# See: https://www.11ty.dev/docs/plugins/navigation/ #}
