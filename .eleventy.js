@@ -5,7 +5,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 // (mostly for github pages deployment, see build-deploy.yaml)
 // const baseUrl = process.env.BASE_URL || "http://localhost:8080";
 // e.g. 'https://mandrasch.github.io/'
-const baseUrl = "https://silent11.pages.dev";
+const baseUrl = "https://silent11.com";
 // const pathPrefix = process.env.PATH_PREFIX || "/";
 const pathPrefix = "/";
 // e.g. '/11ty-plain-boostrap5/'
