@@ -1,2 +1,5 @@
-/dist/app.js
+/dist/*.js
   Content-Type: text/javascript
+  ! X-Content-Type-Options
+/dist/*.css
+  ! X-Content-Type-Options
