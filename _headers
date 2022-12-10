@@ -1,9 +1,5 @@
 /dist/*.js
   Content-Type: text/javascript
 
-
-/dist/app.css
+/dist/*.css
   Content-Type: text/css
-
-**/*css
-  Content-type: text/css
