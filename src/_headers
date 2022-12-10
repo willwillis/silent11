@@ -1,5 +1,7 @@
 /dist/*.js
   Content-Type: text/javascript
   ! X-Content-Type-Options
+
 /dist/*.css
+  Content-Type: text/css
   ! X-Content-Type-Options
