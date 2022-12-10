@@ -80,6 +80,8 @@ module.exports = function (eleventyConfig) {
   // TODO: this is executed too soon? imgs not there?
   eleventyConfig.addPassthroughCopy("img/");
 
+  eleventyConfig.addPassthroughCopy("_headers");
+
   // Important for watch: Eleventy will not add a watch for files or folders that
   // are in .gitignore (--> dist/),unless setUseGitIgnore is turned off. See this chapter:
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
