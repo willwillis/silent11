@@ -1,27 +1,73 @@
 ---
 meta:
   lang: en
-  title: 11ty-plain-bootstrap5
-  image: "/assets/images/open-graph/teaser.jpeg"
-  description: Personal web space of Will Willis
+  title: Home Page
+  image: "/assets/images/wi11.jpg"
+  description: The personal web space of silent11
 layout: base
 eleventyNavigation:
   key: Home
-  hideInMainNav: true
 ---
 
 <div class="">
   <div class="container-fluid py-2">
-    <h1 class="display-5 fw-bold">Hi! 👋︎</h1>
-    <p class="col-md-10 fs-4 mb-4 pt-2">the site you're looking for is no more.</p>
-  </div>
-</div>
-
-<div class="row mt-3">
-  <div class="col-12">
-    <div class="img-fit-cover-container rounded-3">
-      The view atop a 14'er in Colorado {% image "./src/assets/images/mt-blanca.jpg", "View from of Mt. Blanca in
-      Colorado." %}
+    <!-- <h1 class="display-5 fw-bold">Hi! 👋︎ # Heading. </h1> -->
+    <!-- <p class="col-md-10 fs-4 mb-4 pt-2">the site you're looking for is no more. #Subheading</p> -->
+    <div class="row">
+      <div class="col-8">
+        <!-- <div class="img-fit-cover-container rounded-3 bg-secondary border border-black pb-2 mb-2 mx-2">
+          {% image "./src/assets/images/mt-blanca.jpg", "View from of Mt. Blanca in Colorado." %}
+          <p class="m-2 text-white">Atop Mt. Blanca circa 1996</p>
+        </div> -->
+        <div class="img-fit-cover-container pb-2 mb-2 mx-2">
+          {% image "./src/assets/images/mt-blanca.jpg", "View from of Mt. Blanca in Colorado." %}
+          <div class="card-body">
+            <h5 class="card-text m-2 p-2">Atop Mt. Blanca @ Colorado, USA - circa 1995</h5>
+            <p class="card-text m-2 p-2">Does this need a description?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <!-- spontaneous ramblings-->
+        <p class="col-md-10 fs-4 mb-4 pt-2 text-center">spontaneous ramb11ngs</p>
+        <ul class="list-unstyled">
+          <li class="d-flex justify-content-between mb-4">
+            <img
+              src="https://firefoxusercontent.com/7245414de1a0aa46ac96693c1b874294"
+              alt="avatar"
+              class="rounded-circle d-flex align-self-start me-3 shadow-1-strong"
+              width="60"
+            />
+            <div class="card">
+              <div class="card-header d-flex justify-content-between p-3">
+                <p class="fw-bold mb-0">Wi11</p>
+                <p class="text-muted small mb-0"><i class="far fa-clock"></i> Dec 14, 2022</p>
+              </div>
+              <div class="card-body">
+                <p class="mb-0">Why did I wait so long to learn the shape of a major scale on the guitar? #regret.</p>
+              </div>
+            </div>
+          </li>
+          <li class="d-flex justify-content-between mb-4">
+            <div class="card w-100">
+              <div class="card-header d-flex justify-content-between p-3">
+                <p class="fw-bold mb-0">wi11</p>
+                <p class="text-muted small mb-0"><i class="far fa-clock"></i> Dec 13, 2022</p>
+              </div>
+              <div class="card-body">
+                <p class="mb-0">Twitter style feed thingy...</p>
+              </div>
+            </div>
+            <img
+              src="https://firefoxusercontent.com/7245414de1a0aa46ac96693c1b874294"
+              alt="avatar"
+              class="rounded-circle d-flex align-self-start ms-3 shadow-1-strong"
+              width="60"
+            />
+          </li>
+        </ul>
+      </div>
+      <!-- /column /row -->
     </div>
   </div>
 </div>
